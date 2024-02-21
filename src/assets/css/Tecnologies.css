@@ -1,0 +1,33 @@
+@import url(./configuration/Reset.css);
+@import url(./configuration/App.css);
+
+.tecnologia {
+    font-size: 0.9rem;
+    text-align: center;
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem 0;
+  }
+  
+  .linguagens {
+    color: var(--text-color);
+    background-color: var(--bg-second-color);
+    padding: 0.8rem;
+    border-radius: 15px;
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+  }
+  
+  .linguagens img {
+    width: 5rem;
+  }
+  
+  .tecnology-name {
+    color: var(--primary-color);
+    font-size: larger;
+  }
+  
+  .linguagens:hover {
+    transition: 100ms ease-in-out;
+    scale: 1.02;
+  }

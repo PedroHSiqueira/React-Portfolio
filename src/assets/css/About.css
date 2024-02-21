@@ -1,0 +1,26 @@
+@import url(./configuration/Reset.css);
+@import url(./configuration/App.css);
+
+.about {
+    background-color: var(--bg-second-color);
+    color: var(--text-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 5vw 5rem 5vw;
+    padding: 2.5rem;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+      rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  }
+  
+  .about h2 {
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+    font-size: 1rem;
+  }
+  
+  .text {
+    font-size: 0.7rem;
+    color: var(--primary-color);
+  }

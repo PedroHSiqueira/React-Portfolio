@@ -1,0 +1,104 @@
+@import url(./configuration/Reset.css);
+@import url(./configuration/App.css);
+
+.name {
+  font-size: 1.2rem;
+}
+
+.typing {
+  font-size: 0.9rem;
+}
+
+.home {
+  color: var(--text-color);
+  height: 70vh;
+  margin: 2rem 0 7rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+}
+
+.typing {
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  0% {
+    border-right: 2px solid #ffffff;
+  }
+
+  50% {
+    border-right: none;
+  }
+
+  100% {
+    border-right: 2px solid #ffffff;
+  }
+}
+
+
+@media (min-width: 500px) {
+    .name {
+      font-size: 1.7rem;
+    }
+  
+    .typing {
+      font-size: 1rem;
+    }
+  }
+  
+  @media (min-width: 900px) {
+    .name {
+      font-size: 2.3rem;
+    }
+  
+    .typing {
+      font-size: 1.4rem;
+    }
+  
+    .text {
+      font-size: 0.9rem;
+    }
+  
+    .projetos p {
+      font-size: 0.8rem;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .name {
+      font-size: 2.8rem;
+    }
+  
+    .typing {
+      font-size: 1.4rem;
+    }
+  
+    .text {
+      font-size: 1rem;
+    }
+  
+    .tecnologia {
+      margin: 0 15vw 0 15vw;
+    }
+  
+    .projetos p {
+      font-size: 0.9rem;
+    }
+  }
+  
+  @media (min-width: 1600px) {
+    .name {
+      font-size: 3.5rem;
+    }
+  
+    .typing {
+      font-size: 2.3rem;
+    }
+  
+    .text {
+      font-size: 1.1rem;
+    }
+  }

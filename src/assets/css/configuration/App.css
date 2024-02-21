@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap");
+
+:root {
+    --primary-color: #e1e1e4;
+    --bg-second-color: #2e3031;
+    --text-color: #545252;
+    --text-second-color: #fc6161;
+  }
+
+  .cor {
+    color: var(--text-second-color);
+  }
+  
+  .titulo {
+    color: var(--text-color);
+    text-align: center;
+    font-size: 1.7rem;
+  }
+
+  /* Media Querrys */
+
+  @media (max-width: 500px) {
+
+    .projetos h2,
+    h4 {
+      font-size: 1.2rem;
+    }
+  }
+  
+  
+  
+  @media (max-width: 800px) {
+    .projetos h2,
+    h4 {
+      font-size: 1.5rem;
+    }
+  
+    .projetos p {
+      font-size: 0.7rem;
+      margin: 0.5rem 2.5rem 1rem 2.5rem;
+    }
+  }
+  
+  @media (max-width: 870px) {
+    header nav {
+      display: none;
+    }
+  
+    .titulo {
+      font-size: 1.5rem;
+    }
+  
+    .text {
+      font-size: 1rem;
+    }
+  
+    .typing {
+      font-size: 1.5rem;
+    }
+  }
+
+  @media (min-width: 840px) {
+    .tecnologia {
+      grid-template-columns: repeat(3, 2fr);
+    }
+  }
+  
+  @media (min-width: 1200px) {
+
+    .tecnologia {
+      grid-template-columns: repeat(4, 1fr);
+    }
+
+    .tecnology-name {
+      display: block;
+    }
+  }
