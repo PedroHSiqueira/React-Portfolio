@@ -1,7 +1,7 @@
 import "../assets/css/Typing.css";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 import { useLottie } from "lottie-react";
-import AnimationData from "../assets/animation/laptop_Animation .json";
+import AnimationData from "../assets/animation/Animation_people.json";
 
 export function Typing() {
   const [text] = useTypewriter({
