@@ -1,0 +1,17 @@
+@import url(./configuration/Reset.css);
+@import url(./configuration/App.css);
+
+.footer {
+    color: var(--primary-color);
+    background-color: var(--bg-second-color);
+    padding: 2.5rem;
+  }
+  
+  .footer h2 {
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  
+  .footer ul {
+    list-style-type: none;
+  }

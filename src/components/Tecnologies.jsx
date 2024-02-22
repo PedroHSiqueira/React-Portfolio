@@ -6,6 +6,8 @@ import Kotlin from "../assets/images/kotlin.svg"
 import Android from "../assets/images/androidstudio.svg"
 import Sql from "../assets/images/mysql.svg"
 import Git from "../assets/images/git.svg"
+import Tailwind from "../assets/images/tailwindcss.svg"
+import Python from "../assets/images/python.svg"
 import "../assets/css/Tecnologies.css"
 
 export function Tecnologies() {
@@ -22,6 +24,16 @@ export function Tecnologies() {
         </div>
 
         <div className="linguagens">
+          <img src={Kotlin} />
+          <h2 className="tecnology-name">Koltin</h2>
+        </div>
+
+        <div className="linguagens">
+          <img src={Python} />
+          <h2 className="tecnology-name">Python</h2>
+        </div>
+
+        <div className="linguagens">
           <img src={React} />
           <h2 className="tecnology-name">React.Js</h2>
         </div>
@@ -32,8 +44,8 @@ export function Tecnologies() {
         </div>
 
         <div className="linguagens">
-          <img src={Kotlin} />
-          <h2 className="tecnology-name">Koltin</h2>
+          <img src={Tailwind} />
+          <h2 className="tecnology-name">Tailwind CSS</h2>
         </div>
 
         <div className="linguagens">

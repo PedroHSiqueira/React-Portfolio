@@ -1,0 +1,52 @@
+@import url(./configuration/Reset.css);
+@import url(./configuration/App.css);
+
+.projetos {
+    margin: 10rem 0 10rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5rem;
+  }
+  
+  .projetos p {
+    color: #2b2929;
+    margin: 0 7vw 0 7vw;
+    font-size: 0.8rem;
+    text-align: center;
+  }
+  
+  .projetos img {
+    width: 60vw;
+    height: auto;
+    border: 10px solid #000000;
+    border-radius: 10px;
+    margin: 2rem 0 2rem 0;
+    cursor: pointer;
+  }
+  
+  .projetos h2,
+  h4 {
+    color: var(--text-color);
+    text-align: center;
+    font-size: 1.2rem;
+  }
+  
+  .projetos h4 {
+    font-size: 1.2rem;
+    padding: 0.7rem 0;
+  }
+  
+  .projetos-pessoais {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 1200px;
+  }
+
+  @media (min-width: 1200px) {
+    .projetos p{
+        font-size: 1rem;
+      }
+  }

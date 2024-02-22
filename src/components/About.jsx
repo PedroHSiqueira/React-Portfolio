@@ -1,25 +1,25 @@
-import '../assets/css/About.css'
+import "../assets/css/About.css";
 
 export function About() {
   return (
     <div>
       <section className="about" id="about">
-        <h2>About Me</h2>
+        <h2>Sobre mim</h2>
         <p className="text">
-          I am a highly motivated student aiming to develop a successful career
-          in the field of Technology. I am eager to learn and grow in the
-          industry. I am proactive and always ready to take on new challenges
-          <br />
-          <br />I have solid skills in Javascript and Typescript, acquired
-          through academic experiences and personal projects. Currently, my
-          studies are focused on React and MySQL to enhance my skills in
-          creating dynamic interfaces and managing databases. I have experience
-          in the English language, enabling me to communicate with members from
-          other nations. Additionally, I have knowledge in Excel, which allows
-          me to handle spreadsheets and graphs. By combining these skills with
-          my thirst for learning and dedication, I am confident that I can
-          tackle any challenges that arise in my career and add value to any
-          team or organization.
+          Sou um estudante altamente motivado em desenvolver uma carreira
+          bem-sucedida na área de Tecnologia. Estou ansioso para aprender e
+          crescer no setor, sou proativo e estou sempre disposto a enfrentar
+          novos desafios.<br/><br/> Possuo habilidades sólidas em Javascript e Typescript,
+          adquiridas por meio de experiências acadêmicas e projetos pessoais.
+          atualmente estou com meus estudos focados em Kotlin, React e  MySQL
+          para aprimorar minhas habilidades de desenvolvimento andorid, na criação de interfaces dinâmicas e
+          na gestão de bancos de dados, Tenho experiencia em Lingua Inglesa, o
+          que me permite a comunicação com membros de outras nações. Além disso,
+          tenho conhecimento em Excel, o que me permite o manuseio de planilhas
+          e gráficos. Combinando essas habilidades com minha sede de aprendizado
+          e dedicação, estou confiante de que posso enfrentar os desafios que
+          surgirem em minha carreira e agregar valor a qualquer equipe ou
+          organização
         </p>
       </section>
     </div>

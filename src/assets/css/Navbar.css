@@ -1,10 +1,15 @@
 @import url(./configuration/Reset.css);
 @import url(./configuration/App.css);
 
+.sticky-header {
+  position: sticky;
+  top: 0;
+}
+
 .header {
     background-color: var(--primary-color);
     color: var(--text-color);
-    position: sticky;
+    position: static;
     top: 0;
     font-size: 1.2rem;
     font-weight: 600;
@@ -27,4 +32,18 @@
   header a:hover {
     color: var(--text-second-color);
     transition: 200ms ease-in-out;
+  }
+
+  nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .social-medias{
+    margin-left: 1rem;
+  }
+
+  .social-medias img{
+    width: 2rem;
   }
