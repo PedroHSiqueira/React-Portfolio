@@ -1,5 +1,7 @@
 import "../assets/css/Typing.css";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
+import { useLottie } from "lottie-react";
+import AnimationData from "../assets/animation/laptop_Animation .json";
 
 export function Typing() {
   const [text] = useTypewriter({
@@ -8,9 +10,17 @@ export function Typing() {
     typeSpeed: 80,
     deleteSpeed: 80,
   });
+
+  const options = {
+    animationData: AnimationData,
+    loop: true,
+    
+  }
+
+  const { View } = useLottie(options);
   return (
-    <div>
-      <section className="home" id="home">
+    <div className="home">
+      <section className="div_name" id="home">
         <h1 className="name">
           Olá, Meu nome é Pedro <span className="cor">Siqueira</span>
         </h1>
@@ -20,6 +30,9 @@ export function Typing() {
             <Cursor cursorStyle="|" />
           </span>
         </p>
+      </section>
+      <section className="animation">
+        {View}
       </section>
     </div>
   );

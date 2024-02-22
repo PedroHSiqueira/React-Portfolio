@@ -5,8 +5,8 @@ import "../assets/css/Projects.css";
 export function Projects() {
   return (
     <div className="projetos">
+      <h2>Projetos</h2>
       <div>
-        <h2>Projetos</h2>
         <article className="projetos-pessoais">
           <a href="https://pedrohsiqueira.github.io/Help-Desk/" target="_blank">
             <img src={Controle} alt="controle de chamados" id="projetos" />

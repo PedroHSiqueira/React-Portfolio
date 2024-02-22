@@ -6,11 +6,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 5rem;
   }
   
   .projetos p {
-    color: #2b2929;
+    color: var(--text-color);
     margin: 0 7vw 0 7vw;
     font-size: 0.8rem;
     text-align: center;
@@ -19,7 +18,7 @@
   .projetos img {
     width: 60vw;
     height: auto;
-    border: 10px solid #000000;
+    border: 10px solid var(--border-color);
     border-radius: 10px;
     margin: 2rem 0 2rem 0;
     cursor: pointer;
@@ -27,8 +26,6 @@
   
   .projetos h2,
   h4 {
-    color: var(--text-color);
-    text-align: center;
     font-size: 1.2rem;
   }
   
@@ -42,6 +39,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-bottom: 5rem;
     max-width: 1200px;
   }
 
