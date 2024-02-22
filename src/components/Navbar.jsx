@@ -15,10 +15,10 @@ export function Navbar() {
           <a href="#projetos">Projetos</a>
           <div className="social-medias">
             <a href="https://github.com/PedroHSiqueira" target="_blank">
-              <img src={Linkedin} />
+              <img src={Github} />
             </a>
             <a href="https://www.linkedin.com/in/phasiqueira/" target="_blank">
-              <img src={Github} />
+              <img src={Linkedin} />
             </a>
           </div>
         </nav>
