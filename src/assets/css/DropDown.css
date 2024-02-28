@@ -1,0 +1,52 @@
+@import url(./configuration/App.css);
+
+.dropdown {
+  position: absolute;
+  top: 5.5rem;
+  right: 1.3rem;
+  width: 140px;
+  padding: 15px;
+  border-radius: 15px;
+  background-color: var(--primary-color);
+  border: 1px solid var(--border-color) ;
+  display: flex;
+  flex-direction: column;
+}
+
+.dropdown button {
+  background-color: var(--primary-color);
+  min-width: 145px;
+  color: var(--border-color);
+  border: none;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.dropdown-ul button:hover {
+  background-color: var(--text-color);
+  color: var(--primary-color);
+}
+
+.dropdown::before{
+    content: '';
+    position: absolute;
+    top: -0.7rem;
+    right: 1.1rem;
+    width: 20px;
+    height: 21px;
+    transform: rotate(45deg);
+    background-color: var(--primary-color);
+    border-left: 1px solid var(--border-color);
+    border-top: 1px solid var(--border-color);          
+}
+
+.dropdown-ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  gap: 0.5rem;
+}

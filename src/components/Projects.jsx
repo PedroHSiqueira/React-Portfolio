@@ -1,11 +1,13 @@
-import Controle from "../assets/images/controle.png";
-import CarSale from "../assets/images/CarSale.png";
+import Controle from "../assets/images/projects/controle.png";
+import CarSale from "../assets/images/projects/CarSale.png";
 import "../assets/css/Projects.css";
+import { useTranslation } from "react-i18next";
 
 export function Projects() {
+  const { t } = useTranslation();
   return (
     <div className="projetos">
-      <h2>Projetos</h2>
+      <h2>{t('projects')}</h2>
       <div>
         <article className="projetos-pessoais">
           <a href="https://pedrohsiqueira.github.io/Help-Desk/" target="_blank">
@@ -13,12 +15,7 @@ export function Projects() {
           </a>
           <h4>Call Sync</h4>
           <p>
-            CallSync é uma plataforma simples e eficiente para gerenciar
-            chamadas de serviço, desenvolvida utilizando apenas HTML e CSS,
-            conforme proposto por um desafio acadêmico e orientado pelo nosso
-            professor para testar nossas habilidades de design e organização.
-            Através deste projeto, acabei ganhando o prêmio na categoria de
-            design.
+            {t('call_sync')}
           </p>
         </article>
       </div>
@@ -30,10 +27,7 @@ export function Projects() {
           </a>
           <h4>MileStone Motors</h4>
           <p>
-            Este projeto é uma página web simples e elegante para exibir carros
-            disponíveis para venda, construída utilizando React com Vite como
-            empacotador (bundler). A interface do usuário é aprimorada com
-            Tailwind CSS, proporcionando um design limpo e responsivo.
+            {t('milestone_motors')}
           </p>
         </article>
       </div>

@@ -2,10 +2,15 @@ import "../assets/css/Typing.css";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 import { useLottie } from "lottie-react";
 import AnimationData from "../assets/animation/Animation_people.json";
+import { useTranslation } from "react-i18next";
+
 
 export function Typing() {
+
+  const { t } = useTranslation();
+
   const [text] = useTypewriter({
-    words: ["Desenvolvedor Front-end", "Desenvolvedor Android"],
+    words: [t('front_end'), t('android')],
     loop: {},
     typeSpeed: 80,
     deleteSpeed: 80,
@@ -22,10 +27,10 @@ export function Typing() {
     <div className="home">
       <section className="div_name" id="home">
         <h1 className="name">
-          Olá, Meu nome é Pedro <span className="cor">Siqueira</span>
+          {t('name')} <span className="cor">Siqueira</span>
         </h1>
         <p className="typing">
-          eu sou <span className="cor">{text}</span>
+          {t('i_am')}<span className="cor">{text}</span>
           <span>
             <Cursor cursorStyle="|" />
           </span>

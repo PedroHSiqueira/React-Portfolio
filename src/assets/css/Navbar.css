@@ -40,6 +40,11 @@
     justify-content: center;
   }
 
+  button{
+    border: none;
+    background-color: var(--primary-color);
+  }
+
   .social-medias{
     margin-left: 1rem;
   }
