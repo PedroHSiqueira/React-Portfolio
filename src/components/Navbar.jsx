@@ -1,6 +1,6 @@
-import Linkedin from "../assets/images/linkedin.svg";
-import Github from "../assets/images/github.svg";
-import Globe from "../assets/images/globe.svg";
+import Linkedin from "../assets/images/tecnologies/linkedin.svg";
+import Github from "../assets/images/tecnologies/github.svg";
+import Globe from "../assets/images/tecnologies/globe.svg";
 import "../assets/css/Navbar.css";
 import { DropDownProfile } from "./DropDown";
 import { useState } from "react";
