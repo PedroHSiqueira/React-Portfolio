@@ -1,5 +1,6 @@
 import Controle from "../assets/images/projects/controle.png";
 import CarSale from "../assets/images/projects/CarSale.png";
+import Pokemon from "../assets/images/projects/pokemon.png";
 import "../assets/css/Projects.css";
 import { useTranslation } from "react-i18next";
 
@@ -28,6 +29,18 @@ export function Projects() {
           <h4>MileStone Motors</h4>
           <p>
             {t('milestone_motors')}
+          </p>
+        </article>
+      </div>
+
+      <div>
+        <article className="projetos-pessoais">
+          <a href="https://github.com/PedroHSiqueira/Pokemon-Terminal" target="_blank">
+            <img src={Pokemon} id="projetos" />
+          </a>
+          <h4>Pokemon Terminal</h4>
+          <p>
+            {t('pokemon')}
           </p>
         </article>
       </div>
