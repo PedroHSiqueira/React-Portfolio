@@ -1,7 +1,7 @@
 import "../assets/css/Typing.css";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 import { useLottie } from "lottie-react";
-import AnimationData from "../assets/animation/Animation_people.json";
+import AnimationData from "../assets/animation/phoneAnimation.json";
 import { useTranslation } from "react-i18next";
 
 
@@ -10,7 +10,7 @@ export function Typing() {
   const { t } = useTranslation();
 
   const [text] = useTypewriter({
-    words: [t('front_end'), t('android')],
+    words: [t('front_end'), t('mobile')],
     loop: {},
     typeSpeed: 80,
     deleteSpeed: 80,

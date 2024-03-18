@@ -8,12 +8,11 @@
 }
 
 .header {
-    background-color: var(--primary-color);
+    background-color: var(--secondary-color);
     color: var(--text-color);
     position: static;
     top: 0;
     font-size: 1.2rem;
-    font-weight: 600;
     padding: 2rem;
     display: flex;
     align-items: center;
@@ -30,7 +29,7 @@
   }
   
   header a:hover {
-    color: var(--text-second-color);
+    color: var(--border-second-color);
     transition: 200ms ease-in-out;
   }
 
@@ -42,7 +41,7 @@
 
   button{
     border: none;
-    background-color: var(--primary-color);
+    background-color: var(--secondary-color);
   }
 
   .social-medias{

@@ -3,7 +3,7 @@
 
 .footer {
     color: var(--primary-color);
-    background-color: var(--bg-second-color);
+    background-color: var(--secondary-color);
     padding: 2.5rem;
   }
   

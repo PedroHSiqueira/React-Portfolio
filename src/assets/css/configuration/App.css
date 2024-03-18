@@ -1,15 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap");
 
 :root {
-  --primary-color: #e1e1e4;
+  --primary-color: #292b28;
+  --secondary-color: #4e4d4a;
   --bg-second-color: #2e3031;
-  --text-color: #545252;
+  --text-color: #ffffff;
   --border-color: #000000;
-  --text-second-color: #fc6161;
+  --border-second-color: #e3b12b;
 }
 
 .cor {
-  color: var(--text-second-color);
+  color: var(--border-second-color);
 }
 
 .titulo {

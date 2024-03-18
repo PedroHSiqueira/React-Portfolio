@@ -2,7 +2,7 @@
 @import url(./configuration/App.css);
 
 .about {
-    background-color: var(--bg-second-color);
+    background-color: var(--secondary-color);
     color: var(--text-color);
     display: flex;
     flex-direction: column;
@@ -15,7 +15,7 @@
   }
   
   .about h2 {
-    color: var(--primary-color);
+    color: var(--text-color);
     margin-bottom: 1rem;
     font-size: 1rem;
   }
@@ -23,5 +23,5 @@
   .text {
     font-size: 0.7rem;
     line-height: 1.7rem;
-    color: var(--primary-color);
+    color: var(--text-color);
   }

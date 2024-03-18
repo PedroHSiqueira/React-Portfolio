@@ -6,7 +6,6 @@ import Spain from "../assets/images/country/spain.png";
 import Indonesia from "../assets/images/country/indonesia.png";
 import Korea from "../assets/images/country/korea.png";
 import { useTranslation } from "react-i18next";
-import { useState } from "react";
 
 const languages = [
   { flag: <img src={Brasil} />, name: "Português", code: "br" },

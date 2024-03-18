@@ -14,7 +14,7 @@ export function Navbar() {
     <div className="sticky-header">
       <header className="header">
         <a href="#">
-          <span className="cor">P.</span>Siqueira
+          Pedro Siqueira<span className="cor">.</span>
         </a>
         <nav>
           <a href="#about">{t('about')}</a>
