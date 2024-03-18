@@ -6,33 +6,34 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 1rem;
   }
   
   .projetos p {
     color: var(--text-color);
-    margin: 0 7vw 0 7vw;
-    font-size: 0.9rem;
+    font-size: 0.7rem;
     font-weight: 500;
     text-align: center;
   }
   
   .projetos img {
-    width: 65vw;
+    width: 70vw;
     height: auto;
     border: 5px solid var(--border-color);
     border-radius: 10px;
-    margin: 2rem 0 2rem 0;
+    margin: 2.5rem;
     cursor: pointer;
   }
   
   .projetos h2,
   h4 {
+    text-align: center;
     color: var(--text-color);
     font-size: 1rem;
   }
   
   .projetos h4 {
-    font-size: 1.2rem;
+    font-size: 1rem;
     padding: 0.7rem 0;
   }
   
@@ -43,6 +44,17 @@
     justify-content: center;
     margin-bottom: 5rem;
     max-width: 1200px;
+  }
+
+  @media (min-width: 768px) {
+    .projetos-pessoais {
+      flex-direction: row;
+    }
+
+    .projetos img{
+      width: 35vw;
+    
+    }
   }
 
   @media (min-width: 1200px) {

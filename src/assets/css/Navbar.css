@@ -44,10 +44,6 @@
     background-color: var(--secondary-color);
   }
 
-  .social-medias{
-    margin-left: 1rem;
-  }
-
   .social-medias img{
     width: 2rem;
   }
