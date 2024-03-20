@@ -15,7 +15,7 @@ export function Projects() {
             <img src={Controle} alt="controle de chamados" id="projetos" />
           </a>
           <div>
-            <h4>Call Sync</h4>
+            <h4>Call Sync 📊</h4>
             <p>{t("call_sync")}</p>
           </div>
         </article>
@@ -24,7 +24,7 @@ export function Projects() {
       <div>
         <article className="projetos-pessoais">
         <div>
-            <h4>MileStone Motors</h4>
+            <h4>MileStone Motors 🚗</h4>
             <p>{t("milestone_motors")}</p>
           </div>
           <a href="https://car-sale-react-js.vercel.app/" target="_blank">
@@ -42,7 +42,7 @@ export function Projects() {
             <img src={Pokemon} id="projetos" />
           </a>
           <div>
-            <h4>Pokemon Terminal</h4>
+            <h4>Pokemon Terminal 🏃‍♂️</h4>
             <p>{t("pokemon")}</p>
           </div>
         </article>

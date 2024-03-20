@@ -10,10 +10,7 @@ import { useTranslation } from "react-i18next";
 const languages = [
   { flag: <img src={Brasil} />, name: "Português", code: "br" },
   { flag: <img src={Usa} />, name: "English", code: "en" },
-  { flag: <img src={Spain} />, name: "Español", code: "es" },
-  { flag: <img src={Indonesia} />, name: "Bahasa Indonesia", code: "id" },
-  { flag: <img src={Korea} />, name: "한국어", code: "kr" },
-  { flag: <img src={Japan} />, name: "日本語", code: "jp" },
+  { flag: <img src={Spain} />, name: "Español", code: "es" }
 ];
 
 export function DropDownProfile() {

@@ -89,12 +89,16 @@
     }
   
     .tecnologia {
-      margin: 0 15vw 0 15vw;
+      margin: 0 5vw 0 5vw;
     }
   
     .projetos p {
       font-size: 0.9rem;
     }
+
+    .tecnology-title{
+      display: block;
+    };;;
   }
   
   @media (min-width: 1600px) {

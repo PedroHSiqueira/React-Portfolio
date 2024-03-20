@@ -19,7 +19,6 @@
   .projetos img {
     width: 70vw;
     height: auto;
-    border: 5px solid var(--border-color);
     border-radius: 10px;
     margin: 2.5rem;
     cursor: pointer;

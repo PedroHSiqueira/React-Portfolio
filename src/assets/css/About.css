@@ -1,20 +1,32 @@
 @import url(./configuration/Reset.css);
 @import url(./configuration/App.css);
 
-.about {
+.about{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 8rem 5vw 8rem 5vw;
+}
+
+.about img{
+  display: none;
+  width: 25vw;
+  border-radius: 20px;
+}
+
+.about_text {
     background-color: var(--secondary-color);
     color: var(--text-color);
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 0 5vw 5rem 5vw;
     padding: 2.5rem;
     border-radius: 20px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
       rgba(0, 0, 0, 0.22) 0px 10px 10px;
   }
   
-  .about h2 {
+  .about_text h2 {
     color: var(--text-color);
     margin-bottom: 1rem;
     font-size: 1rem;
@@ -24,4 +36,15 @@
     font-size: 0.7rem;
     line-height: 1.7rem;
     color: var(--text-color);
+  }
+
+  @media (min-width: 1200px) {
+    .about{
+      flex-direction: row;
+      gap: 5rem;
+    }
+    
+    .about img{
+      display: block;
+    }
   }

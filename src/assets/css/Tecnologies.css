@@ -1,21 +1,30 @@
 @import url(./configuration/Reset.css);
 @import url(./configuration/App.css);
 
+.tech{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tecnology-title{
+  display: none;
+  color: var(--text-color);
+  font-size: 1.5rem;
+}
+
 .tecnologia {
     font-size: 0.9rem;
     text-align: center;
     display: grid;
-    justify-items: center;
     grid-template-columns: repeat(2, 1fr);
-    gap: 1rem 0;
+    gap: 5rem;
+    margin: 0;
   }
   
   .linguagens {
     color: var(--text-color);
-    background-color: var(--secondary-color);
-    padding: 0.9rem;
     border-radius: 15px;
-    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
   }
   
   .linguagens img {
@@ -28,6 +37,5 @@
   }
   
   .linguagens:hover {
-    transition: 100ms ease-in-out;
-    scale: 1.02;
+    cursor: pointer;
   }
