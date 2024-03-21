@@ -30,9 +30,6 @@ export function Tecnologies() {
           <div className="linguagens">
             <img src={Python} />
           </div>
-          <div className="linguagens">
-            <img src={Sql} />
-          </div>
       </div>
     </div>
   );
