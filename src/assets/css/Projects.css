@@ -2,62 +2,90 @@
 @import url(./configuration/App.css);
 
 .projetos {
-    margin: 10rem 0 10rem 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1rem;
-  }
-  
-  .projetos p {
-    color: var(--text-color);
-    font-size: 0.7rem;
-    font-weight: 500;
-    text-align: center;
-  }
-  
-  .projetos img {
-    width: 70vw;
-    height: auto;
-    border-radius: 10px;
-    margin: 2.5rem;
-    cursor: pointer;
-  }
-  
-  .projetos h2,
-  h4 {
-    text-align: center;
-    color: var(--text-color);
-    font-size: 1rem;
-  }
-  
-  .projetos h4 {
-    font-size: 1rem;
-    padding: 0.7rem 0;
-  }
-  
+  margin: 10rem 0 10rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.projetos p {
+  color: var(--text-color);
+  font-size: 0.7rem;
+  font-weight: 500;
+  text-align: center;
+}
+
+.projetos img {
+  width: 70vw;
+  height: auto;
+  border-radius: 10px;
+  margin: 2.5rem;
+  cursor: pointer;
+}
+
+.projetos h2,
+h4 {
+  color: var(--text-color);
+  font-size: 1rem;
+}
+
+.projetos h4 {
+  text-align: center;
+  font-size: 1rem;
+  padding: 0.7rem 0;
+}
+
+.projetos-pessoais {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5rem;
+  max-width: 1200px;
+  padding: 2rem;
+  border-radius: 10px;
+  border: 2px solid var(--secondary-color);
+}
+
+.midia_buttons {
+  display: flex;
+  margin: 2rem 0 2rem 0;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.button {
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  text-align: center;
+  width: 8rem;
+  text-decoration: none;
+  color: var(--text-color);
+  background-color: var(--primary-color);
+  font-size: 0.8rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.3s;
+  border: 1px solid var(--border-second-color);
+}
+
+.button:hover {
+  scale: 1.01;
+}
+
+@media (min-width: 768px) {
   .projetos-pessoais {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 5rem;
-    max-width: 1200px;
+    flex-direction: row;
   }
 
-  @media (min-width: 768px) {
-    .projetos-pessoais {
-      flex-direction: row;
-    }
-
-    .projetos img{
-      width: 35vw;
-    
-    }
+  .projetos img {
+    width: 35vw;
   }
+}
 
-  @media (min-width: 1200px) {
-    .projetos p{
-        font-size: 1rem;
-      }
+@media (min-width: 1200px) {
+  .projetos p {
+    font-size: 1rem;
   }
+}

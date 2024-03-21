@@ -4,6 +4,7 @@ import React from "../assets/images/tecnologies/react.svg"
 import Kotlin from "../assets/images/tecnologies/kotlin.svg"
 import Python from "../assets/images/tecnologies/python.svg"
 import Flutter from "../assets/images/tecnologies/flutter.svg"
+import Sql from "../assets/images/tecnologies/mysql.svg"
 import "../assets/css/Tecnologies.css"
 
 export function Tecnologies() {
@@ -28,6 +29,9 @@ export function Tecnologies() {
           </div>
           <div className="linguagens">
             <img src={Python} />
+          </div>
+          <div className="linguagens">
+            <img src={Sql} />
           </div>
       </div>
     </div>

@@ -3,7 +3,7 @@ import "../assets/css/Footer.css"
 export function Footer(){
     return (
         <div className="footer" id="contato">
-            {/* Manutenção */}
+            <p>© 2024 Pedro Siqueira - Full-stack Developer</p>
         </div>
     )
 }
