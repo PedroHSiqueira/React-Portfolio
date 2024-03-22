@@ -44,6 +44,10 @@
     background-color: var(--secondary-color);
   }
 
+  .globe{
+    cursor: pointer;
+  }
+
   .social-medias img{
     width: 2rem;
   }

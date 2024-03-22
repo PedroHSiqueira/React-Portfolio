@@ -1,10 +1,7 @@
 import "../assets/css/DropDown.css";
 import Brasil from "../assets/images/country/brazil.png";
 import Usa from "../assets/images/country/usa.png";
-import Japan from "../assets/images/country/japan.png";
 import Spain from "../assets/images/country/spain.png";
-import Indonesia from "../assets/images/country/indonesia.png";
-import Korea from "../assets/images/country/korea.png";
 import { useTranslation } from "react-i18next";
 
 const languages = [
