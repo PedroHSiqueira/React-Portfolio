@@ -22,13 +22,13 @@ export function Tecnologies() {
             <img src={React} />
           </div>
           <div className="linguagens">
-            <img src={Flutter} />
-          </div>
-          <div className="linguagens">
             <img src={Kotlin} />
           </div>
           <div className="linguagens">
             <img src={Python} />
+          </div>
+          <div className="linguagens">
+            <img src={Flutter} />
           </div>
       </div>
     </div>

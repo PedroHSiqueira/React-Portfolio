@@ -27,7 +27,7 @@ export function Navbar() {
             <a href="https://www.linkedin.com/in/phasiqueira/" target="_blank">
               <img src={Linkedin} />
             </a>
-            <button>
+            <button className="globe">
               <img
                 src={Globe}
                 onClick={() => {
