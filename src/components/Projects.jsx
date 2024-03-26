@@ -1,4 +1,4 @@
-import Controle from "../assets/images/projects/controle.png";
+import Weather from "../assets/images/projects/weather_app.png";
 import CarSale from "../assets/images/projects/CarSale.png";
 import Pokemon from "../assets/images/projects/pokemon.png";
 import "../assets/css/Projects.css";
@@ -27,14 +27,14 @@ export function Projects() {
       <div>
         <article className="projetos-pessoais">
           <div>
-            <h4>Call Sync 📊</h4>
-            <p>{t("call_sync")}</p>
+            <h4>Aplicativo de Clima 🌧️</h4>
+            <p>{t("weather")}</p>
             <div className="midia_buttons">
-              <a href="https://github.com/PedroHSiqueira/Help-Desk" target="_blank" className="button">Github</a>
-              <a href="https://pedrohsiqueira.github.io/Help-Desk/" target="_blank" className="button">Deploy</a>
+              <a href="https://github.com/PedroHSiqueira/Flutter_Weather_App" target="_blank" className="button">Github</a>
+              <a href="https://github.com/PedroHSiqueira/Flutter_Weather_App" target="_blank" className="button">Deploy</a>
             </div>
           </div>
-          <img src={Controle} alt="controle de chamados" id="projetos" />
+          <img src={Weather} alt="controle de chamados" id="projetos" />
         </article>
       </div>
 
