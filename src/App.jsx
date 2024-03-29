@@ -6,7 +6,6 @@ import { Navbar } from "./components/Navbar";
 import { Projects } from "./components/Projects";
 import { Tecnologies } from "./components/Tecnologies";
 import { Typing } from "./components/Typing";
-import { Analytics } from "@vercel/analytics/react"
 
 export function App() {
   return (
@@ -17,7 +16,6 @@ export function App() {
       <Tecnologies />
       <Projects />
       <Footer />
-      <Analytics />
     </div>
   );
 }
