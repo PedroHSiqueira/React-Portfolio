@@ -1,6 +1,7 @@
 import Weather from "../assets/images/projects/weather_app.png";
 import CarSale from "../assets/images/projects/CarSale.png";
 import Pokemon from "../assets/images/projects/pokemon.png";
+import Verbalize from "../assets/images/projects/Verbalize.png";
 import "../assets/css/Projects.css";
 import { useTranslation } from "react-i18next";
 
@@ -9,6 +10,20 @@ export function Projects() {
   return (
     <div className="projetos">
       <h2>{t("projects")}</h2>
+
+      <div>
+        <article className="projetos-pessoais">
+            <img src={Verbalize} id="projetos" />
+            <div>
+            <h4>Verbalize 💬</h4>
+            <p>{t("verbalize")}</p>
+            <div className="midia_buttons">
+              <a href="https://github.com/PedroHSiqueira/Next_Verbalise_Frontend" target="_blank" className="button">Github</a>
+              <a href="https://verbalize-senac.vercel.app/" target="_blank" className="button">Deploy</a>
+            </div>
+          </div>
+        </article>
+      </div>
 
       <div>
         <article className="projetos-pessoais">

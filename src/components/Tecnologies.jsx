@@ -4,7 +4,7 @@ import React from "../assets/images/tecnologies/react.svg"
 import Kotlin from "../assets/images/tecnologies/kotlin.svg"
 import Python from "../assets/images/tecnologies/python.svg"
 import Flutter from "../assets/images/tecnologies/flutter.svg"
-import Sql from "../assets/images/tecnologies/mysql.svg"
+import Java from "../assets/images/tecnologies/java.svg"
 import "../assets/css/Tecnologies.css"
 
 export function Tecnologies() {
@@ -12,6 +12,9 @@ export function Tecnologies() {
     <div className="tech">
       <h1 className="tecnology-title">Tech Stack |</h1>
       <div className="tecnologia" id="tecnologia">
+      <div className="linguagens">
+            <img src={Java} />
+          </div>
         <div className="linguagens">
             <img src={Javascript} />
           </div>
@@ -26,9 +29,6 @@ export function Tecnologies() {
           </div>
           <div className="linguagens">
             <img src={Python} />
-          </div>
-          <div className="linguagens">
-            <img src={Flutter} />
           </div>
       </div>
     </div>

@@ -12,6 +12,7 @@
     "about_me_3": "Además de tener interés en el Desarrollo Móvil, utilizando el Framework Flutter junto con el lenguaje Dart, estoy constantemente buscando mejorar mis habilidades en diseño UI/UX y desarrollo de aplicaciones móviles, siempre explorando nuevas tecnologías y metodologías para potenciar mis habilidades.",
     "weather": "El proyecto tiene como objetivo mantenerte informado sobre las condiciones meteorológicas actuales y futuras, estés donde estés. Con una interfaz elegante e intuitiva, esta aplicación desarrollada en Flutter ofrece acceso rápido y sencillo a datos precisos sobre el clima, alimentados por la sólida API de OpenWeather.",
     "milestone_motors": "Este proyecto es una página web simple y elegante para mostrar autos disponibles para la venta, construida utilizando React con Vite como empaquetador. La interfaz de usuario se mejora con Tailwind CSS, brindando un diseño limpio y receptivo.",
-    "pokemon": "Este proyecto es una implementación del clásico juego Pokémon para ser jugado en la terminal de Windows. El juego está escrito en TypeScript y ofrece una experiencia de juego de consola simple y divertida para los fanáticos de Pokémon."
+    "pokemon": "Este proyecto es una implementación del clásico juego Pokémon para ser jugado en la terminal de Windows. El juego está escrito en TypeScript y ofrece una experiencia de juego de consola simple y divertida para los fanáticos de Pokémon.",
+    "verbalize": "Este proyecto es un sitio web para intercambio lingüístico, donde puedes encontrar personas que hablan el idioma que deseas aprender y que desean aprender el idioma que hablas. El sitio fue desarrollado con Next.js y MySQL"
   }
 }
